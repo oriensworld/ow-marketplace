@@ -1,9 +1,16 @@
 {
+  "name": "ow-marketplace",
+  "owner": {
+    "name": "tsengyuwei"
+  },
   "plugins": [
     {
       "name": "ow-plugin",
-      "description": "Oriens World plugin — system info and greeting, cross-platform proof-of-concept",
-      "repository": "https://github.com/oriensworld/ow-plugin"
+      "source": {
+        "source": "github",
+        "repo": "oriensworld/ow-plugin"
+      },
+      "description": "Oriens World plugin — system info and greeting, cross-platform proof-of-concept"
     }
   ]
 }
