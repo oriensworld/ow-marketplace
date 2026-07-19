@@ -10,7 +10,7 @@
         "source": "github",
         "repo": "oriensworld/ow-plugin"
       },
-      "version": "0.5.1",
+      "version": "0.5.2",
       "description": "Oriens World plugin — system info and greeting, cross-platform proof-of-concept"
     }
   ]
