@@ -24,6 +24,7 @@ claude plugin install @ow-marketplace/ow-obsidian
 **Codex CLI:**
 ```bash
 codex plugin marketplace add oriensworld/ow-marketplace
+codex plugin add ow-plugin@ow-marketplace
 codex plugin add ow-obsidian@ow-marketplace
 ```
 
