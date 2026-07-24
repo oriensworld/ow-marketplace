@@ -12,6 +12,15 @@
       },
       "version": "0.4.0",
       "description": "Oriens World plugin — system info and greeting, cross-platform proof-of-concept"
+    },
+    {
+      "name": "ow-obsidian",
+      "source": {
+        "source": "github",
+        "repo": "oriensworld/ow-obsidian"
+      },
+      "version": "0.1.0",
+      "description": "Portable Obsidian knowledge workflows for Claude Code and Codex"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "ow-marketplace",
+  "interface": {
+    "displayName": "Oriens World"
+  },
+  "plugins": [
+    {
+      "name": "ow-obsidian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oriensworld/ow-obsidian.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
