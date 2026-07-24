@@ -1,26 +1,26 @@
 {
   "name": "ow-marketplace",
   "owner": {
-    "name": "tsengyuwei"
+    "name": "Oriens World"
   },
   "plugins": [
     {
-      "name": "ow-plugin",
-      "source": {
-        "source": "github",
-        "repo": "oriensworld/ow-plugin"
-      },
-      "version": "0.5.2",
-      "description": "Oriens World plugin — system info and greeting, cross-platform proof-of-concept"
-    },
-    {
       "name": "ow-obsidian",
+      "description": "Vault-agnostic Obsidian knowledge workflows for Claude and Codex, including research, ingestion, retrieval, linked-note authoring, and vault maintenance.",
+      "version": "0.2.0",
       "source": {
         "source": "github",
         "repo": "oriensworld/ow-obsidian"
-      },
-      "version": "0.2.0",
-      "description": "Portable Obsidian knowledge workflows for Claude Code and Codex"
+      }
+    },
+    {
+      "name": "ow-plugin",
+      "description": "Cross-platform development collaboration toolkit for Claude and Codex, with Git automation, planning, repository onboarding, UI/UX guidance, and MCP utilities.",
+      "version": "0.5.2",
+      "source": {
+        "source": "github",
+        "repo": "oriensworld/ow-plugin"
+      }
     }
   ]
 }

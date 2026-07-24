@@ -5,20 +5,9 @@
   },
   "plugins": [
     {
-      "name": "ow-plugin",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/oriensworld/ow-plugin.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "ow-obsidian",
+      "description": "Vault-agnostic Obsidian knowledge workflows for Claude and Codex, including research, ingestion, retrieval, linked-note authoring, and vault maintenance.",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/oriensworld/ow-obsidian.git",
@@ -27,8 +16,21 @@
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "ow-plugin",
+      "description": "Cross-platform development collaboration toolkit for Claude and Codex, with Git automation, planning, repository onboarding, UI/UX guidance, and MCP utilities.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oriensworld/ow-plugin.git",
+        "ref": "main"
       },
-      "category": "Productivity"
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
     }
   ]
 }
